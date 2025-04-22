@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/mapa_portugues.jpg",
+  "label": "Mapa dos Países de Língua Portuguesa",
+  "description": "Mapa ilustrando os países onde o português é língua oficial, criado pelo Museu da Língua Portuguesa.",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/mapa_portugues.jpg",
+          "@type": "sc:Canvas",
+          "label": "Mapa da CPLP",
+          "width": 1000,
+          "height": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/mapa_portugues.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1000,
+                "height": 1000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
