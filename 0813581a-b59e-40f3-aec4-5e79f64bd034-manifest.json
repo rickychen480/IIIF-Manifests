@@ -1,0 +1,31 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/0813581a-b59e-40f3-aec4-5e79f64bd034.png",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/0813581a-b59e-40f3-aec4-5e79f64bd034.png",
+          "@type": "sc:Canvas",
+          "width": 1024,
+          "height": 1536,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/0813581a-b59e-40f3-aec4-5e79f64bd034.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "width": 1024,
+                "height": 1536
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
