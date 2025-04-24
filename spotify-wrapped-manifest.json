@@ -1,37 +1,30 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/manifest.json",
+  "id": "https://github.com/rickychen480/IIIF-Manifests/raw/refs/heads/main/spotify-wrapped-manifest.json",
   "type": "Manifest",
-  "label": {
-    "en": [
-      "Semester Wrapped"
-    ]
-  },
+  "label": { "en": ["Retrospectiva do semestre"] },
   "items": [
     {
-      "id": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas",
+      "id": "https://example.org/iiif/video/canvas/1",
       "type": "Canvas",
-      "height": 1280,
-      "width": 720,
-      "duration": 32,
+      "duration": 32.0,
+      "label": { "en": ["Retrospective do semestre"] },
       "items": [
         {
-          "id": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas/page",
+          "id": "https://example.org/iiif/video/annotationpage/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas/page/annotation",
+              "id": "https://example.org/iiif/video/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
                 "id": "https://github.com/rickychen480/IIIF-Manifests/raw/refs/heads/main/spotify-wrapped.mp4",
                 "type": "Video",
-                "height": 1280,
-                "width": 720,
-                "duration": 32,
-                "format": "video/mp4"
+                "format": "video/mp4",
+                "duration": 32.0
               },
-              "target": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas"
+              "target": "https://example.org/iiif/video/canvas/1"
             }
           ]
         }
