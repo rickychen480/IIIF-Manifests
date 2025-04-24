@@ -11,8 +11,8 @@
     {
       "id": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas",
       "type": "Canvas",
-      "height": 720,
-      "width": 1280,
+      "height": 1280,
+      "width": 720,
       "duration": 32,
       "items": [
         {
@@ -26,8 +26,8 @@
               "body": {
                 "id": "https://github.com/rickychen480/IIIF-Manifests/raw/refs/heads/main/spotify-wrapped.mp4",
                 "type": "Video",
-                "height": 720,
-                "width": 1280,
+                "height": 1280,
+                "width": 720,
                 "duration": 32,
                 "format": "video/mp4"
               },
