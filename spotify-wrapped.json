@@ -1,0 +1,41 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Semester Wrapped"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas",
+      "type": "Canvas",
+      "height": 720,
+      "width": 1280,
+      "duration": 32,
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas/page/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://github.com/rickychen480/IIIF-Manifests/raw/refs/heads/main/spotify-wrapped.mp4",
+                "type": "Video",
+                "height": 720,
+                "width": 1280,
+                "duration": 32,
+                "format": "video/mp4"
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
