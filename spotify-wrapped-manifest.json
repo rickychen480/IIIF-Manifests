@@ -5,26 +5,22 @@
   "label": { "en": ["Retrospectiva do semestre"] },
   "items": [
     {
-      "id": "https://example.org/iiif/video/canvas/1",
       "type": "Canvas",
       "duration": 32.0,
       "label": { "en": ["Retrospective do semestre"] },
       "items": [
         {
-          "id": "https://example.org/iiif/video/annotationpage/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/iiif/video/annotation/1",
               "type": "Annotation",
-              "motivation": "painting",
+              "motivation": "painting"
               "body": {
                 "id": "https://github.com/rickychen480/IIIF-Manifests/raw/refs/heads/main/spotify-wrapped.mp4",
                 "type": "Video",
                 "format": "video/mp4",
                 "duration": 32.0
-              },
-              "target": "https://example.org/iiif/video/canvas/1"
+              }
             }
           ]
         }
