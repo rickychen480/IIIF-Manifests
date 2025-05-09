@@ -1,0 +1,36 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/SPA304/Caricature-1.jpg",
+  "label": {
+    "en": [
+      "Caricature-1"
+    ]
+  },
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/SPA304/Caricature-1.jpg",
+          "@type": "sc:Canvas",
+          "width": 765,
+          "height": 1020,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/SPA304/Caricature-1.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 765,
+                "height": 1020
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
