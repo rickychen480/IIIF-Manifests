@@ -1,0 +1,36 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/SPA304/Owners.jpg",
+  "label": {
+    "en": [
+      "Owners"
+    ]
+  },
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/SPA304/Owners.jpg",
+          "@type": "sc:Canvas",
+          "width": 1080,
+          "height": 1437,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/SPA304/Owners.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1080,
+                "height": 1437
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

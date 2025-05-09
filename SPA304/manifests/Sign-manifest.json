@@ -1,0 +1,36 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/SPA304/Sign.jpeg",
+  "label": {
+    "en": [
+      "Sign"
+    ]
+  },
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/SPA304/Sign.jpeg",
+          "@type": "sc:Canvas",
+          "width": 1140,
+          "height": 760,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://raw.githubusercontent.com/rickychen480/IIIF-Manifests/refs/heads/main/SPA304/Sign.jpeg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 1140,
+                "height": 760
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
